@@ -45,10 +45,29 @@ li{
     font-weight: bold;
 }
 
-.divs{
+.header_carousel_coca {
     display: flex;
-    height: 120px;
+    width: 100%;
+    height: 100px;
     background-color: #B83539;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_carousel_fanta {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #d37121;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_carousel_sprite{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: #71a333;
     align-items: center;
     justify-content: center;
 }
@@ -176,7 +195,7 @@ li{
 
 /* Vídeo Anúncio */
 #divvideo2{
-    background-color: #B83539;
+    height: 100%;
 }
 #video{
     height: 100%;
@@ -185,7 +204,6 @@ li{
 
 /* Produtos da marca */
 .item{
-    display: none;
     width: 100%;
     height: 600px;
     position: relative;
@@ -219,8 +237,7 @@ li{
 }
 
 .contrefri{
-    position: absolute;
-    left: 100px;
+    margin-left: 100px;
     color: white;
 }
 
@@ -249,7 +266,7 @@ li{
 }
 
 #linesprite{
-    border-top: 1px solid #ccc; /* Ajuste a cor e a largura conforme necessário */
+    border-top: 1px solid #ffffff; /* Ajuste a cor e a largura conforme necessário */
     width: 30%;
     position: absolute;
     top: 465px;
